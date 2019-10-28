@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2007 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * This is the sample templates definitions file. It makes the "templates"
+ * command completely customizable.
+ *
+ * See FCKConfig.TemplatesXmlPath in the configuration file.
+-->
+<Templates imagesBasePath="fck_template/images/">
+
+	<Template title="Pozicija sa slikom bez naslova (za sekciju 3)" image="template1.gif">
+		<Description>Koristite ovaj template kada menjate pozicije na naslovnoj strani.</Description>
+		<Html>
+			<![CDATA[
+		    <b>09.10.07. &middot; Naslov</b><img src="images/image.gif" alt="Image" class="image" /><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eui veniam, quis nostrud exerci tations et accumsan et iusto odio et accumsan et iusto odio.<br><br>
+			]]>
+		</Html>
+	</Template>
+
+
+	<Template title="Pozicija sa slikom i naslovom (za sekcije 4 i 5)" image="template1.gif">
+		<Description>Koristite ovaj template kada menjate pozicije na naslovnoj strani.</Description>
+		<Html>
+			<![CDATA[
+			<h3>Ovo je naslov paragrafa</h3>
+		    <br><b>09.10.07. &middot; Naslov</b><img src="images/image.gif" alt="Image" class="image" /><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eui veniam, quis nostrud exerci tations et accumsan et iusto odio et accumsan et iusto odio.<br><br>
+			]]>
+		</Html>
+	</Template>
+	
+		<Template title="Gume: Izdvajamo (link)" image="template1.gif">
+		<Description>Koristite ovaj template kada kreirate link za gumu koja se izdvaja.</Description>
+		<Html>
+			<![CDATA[
+			<img src="/fajlovi/templates/gume_naslovna/izdvajamo_link.jpg" />
+			]]>
+		</Html>
+	</Template>
+
+
+		
+	
+</Templates>

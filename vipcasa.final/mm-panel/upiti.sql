@@ -1,0 +1,2 @@
+SELECT s.id, s.sprat, s.status, v.naziv AS naziv_vrste, t.naziv AS naziv_tipa, l.naziv AS naziv_lokacije FROM stan s, vrsta v, tip t, lokacija l WHERE s.vrsta_id=v.id AND s.tip_id=t.id AND s.lokacija_id=l.id ORDER BY s.id ASC;
+UPDATE stan SET sprat='$sprat', status='$status', vrsta_id='$vrsta_id', tip_id='$tip_id', lokacija_id='$lokacija_id'  WHERE s.vrsta_id=v.id AND s.tip_id=t.id AND s.lokacija_id=l.id ORDER BY s.id ASC;

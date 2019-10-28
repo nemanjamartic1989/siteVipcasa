@@ -1,0 +1,107 @@
+@import "reset.css";
+Body{
+     font: 13px/22px Helvetica, Arial, sans-serif;  
+	 background-image:url('../images/bg.gif');
+}
+
+/* Tutorial button with jQuery */
+.otherbutton {
+	clear: both;
+	position:relative;
+	display:block;
+	height: 64px;
+	width: 570px;
+	background:url(../images/downloadbutton.png) no-repeat;
+	background-position:0 0;
+	cursor: pointer;
+}	
+.otherbutton span.hover {
+	position: absolute;
+	display: block;
+	height: 64px;
+	width: 570px;
+	background: url(../images/downloadbutton.png) no-repeat;
+	background-position: bottom;
+}
+
+#container{
+margin: 0 auto;  
+     width: 940px;  
+	 height:900px;
+	 background:#000000;
+}
+
+#login{
+	margin: 0 auto;  
+     width: 350px;  
+	 height:200px;
+	 margin-top:150px;
+	 padding:20px;
+	 
+	 -moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgba(20,0,0,0.3);
+}
+
+#form{
+margin-top:30px;
+}
+
+#login .field{
+width:100%;
+height:22px;
+background: #ffffff; 
+-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #cccccc;
+	color:#000000;
+	font-weight:bold;
+}
+
+.label, .passlabel{
+font-size:16px;
+color:#ffffff;
+text-transform: uppercase;
+font-weight:bold;
+}
+
+.passlabel{
+margin-bottom:20px;
+}
+
+.submit{
+width:40%;
+height:22px;
+-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #000000;
+	color:#ffffff;
+	font-weight:bold;
+	float:right;
+	margin-top:10px;
+	text-transform: uppercase;
+	background-color: #F9141C;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#F9141C));
+background: -moz-linear-gradient(top, #000000 0%, #F9141C 100%);
+}
+
+#info{
+margin-top:40px;
+font-size:16px;
+color:#ffffff;
+font-weight:bold;
+}
+
+.register a:link,a:visited{
+color:#a0e629;
+text-decoration:none;
+}
+
+.submit {
+    border: 1px solid #006;
+    background: #ccf;
+}
+.submit:hover {
+    border: 1px solid #f00;
+    background: #eef;
+}

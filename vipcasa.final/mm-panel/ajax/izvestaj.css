@@ -1,0 +1,15 @@
+body { background: none; background-color:#FFF;}
+.sr_form0 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 40px; } 
+.sr_form1 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 55px; } 
+.sr_form2 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 150px; } 
+.sr_form3 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 200px; } 
+.sr_form31 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 300px; } 
+.sr_form4 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 400px; } 
+.sr_form5 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 600px; } 
+.sr_form6 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 420px; height: 100px } 
+.sr_form7 {font-size : 11px; font-family:Arial, Helvetica, sans-serif;  border: 1px solid #d3d3d3; padding: 2px; width : 800px; height: 100px } 
+
+.TD_Odd { border-bottom: 1px solid #c8c8c8; height: 20px} 
+.TD_OddRed {  border-bottom: 1px solid #c8c8c8; height: 20px } 
+.podvuceno {  border-bottom: 2px solid #9b9b9b} 
+.nijepodvuceno {  border-bottom: 0px} 

@@ -1,0 +1,27 @@
+#php_flag display_errors off
+#php_flag display_startup_errors off
+
+RewriteEngine on
+#RewriteRule ^socnet\tst.php$ socnet/tst.php
+RewriteRule ^socnet/getFBAccessToken/logout$ socnet/getFBAccessToken.php?logout=1
+RewriteRule ^socnet/getFBAccessToken$ socnet/getFBAccessToken.php
+RewriteRule ^socnet/getLIAccessToken/logout$ socnet/getLIAccessToken.php?logout=1
+RewriteRule ^socnet/getLIAccessToken$ socnet/getLIAccessToken.php
+RewriteRule ^n(\d+)$ /eng/news=$1
+RewriteRule ^rss\.xml$ rss/rss.php
+RewriteRule ^ljcnegrlfyysv/(.*)	ljcnegrlfyysv/$1 [skip=300]
+RewriteRule ^mm-panel$ mm-panel/index.php
+RewriteRule ^mm-panel/$ mm-panel/index.php
+RewriteRule ^([^./]*)/events/([^./]*)$ index.php?strana=115&slug=events&nadr=$1&year=$2
+RewriteRule ^([^./]*)/events/([^./]*)/([^./]*)/([^./]*)$ index.php?strana=115&slug=events&nadr=$1&year=$2&date=$3&event=$4
+RewriteRule ^([^./]*)/events/([^./]*)/([^./]*)/([^./]*)/([^./]*)$ index.php?strana=115&slug=events&nadr=$1&year=$2&date=$3&event=$4&view=$5
+RewriteRule ^([^./]*)/$ index.php?slug=$1
+RewriteRule ^([^./]*)/([^./]*)/$ index.php?slug=$2&nadr=$1
+RewriteRule ^([^./]*)/([^./]*)/([^./]*)/$ index.php?slug=$3&nadr=$2&nadr2=$1
+RewriteRule ^([^./]*)/([^./]*)/([^./]*)/([^./]*)/$ index.php?slug=$4&nadr=$3&nadr2=$2&nadr3=$1
+RewriteRule ^([^./]*)$ index.php?slug=$1
+RewriteRule ^([^./]*)/([^./]*)$ index.php?slug=$2&nadr=$1
+RewriteRule ^([^./]*)/([^./]*)/([^./]*)$ index.php?slug=$3&nadr=$2&nadr2=$1
+RewriteRule ^([^./]*)/([^./]*)/([^./]*)/([^./]*)$ index.php?slug=$4&nadr=$3&nadr2=$2&nadr3=$1
+RewriteRule ^vesti-([0-9]+)-([0-9]+).html$ index.php?strana=10&vesti=1&katv=$1&jezik=1&sekcija=glavna#$2
+RewriteRule ^newstemp-([0-9]+)-([0-9]+).html$ index.php?strana=231&vesti=1&katv=$1&jezik=2&sekcija=glavna#$2

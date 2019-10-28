@@ -1,0 +1,93 @@
+#vrednost{
+    font-family:Calibri,arial,helvetica;
+    font-size:18px;
+    color:#454849;
+}
+
+#tabela{
+border:1px #454849  dotted; 
+border-width: 2px;
+border-style: dashed;
+padding-bottom:10px;
+border-color: #454849;
+page-break-inside: avoid;
+}
+
+#prekid{
+page-break-inside: avoid;
+}
+
+#vrednost span{
+    font-family:Calibri,arial,helvetica;
+    font-size:18px;
+    color:#89b556;
+}
+
+p{
+    font-family:Calibri,arial,helvetica;
+    font-size:15px;
+    color:#454849;
+    text-align:justify;
+    padding:10px;
+    width:410px;    
+}
+
+#okvir{
+border-width: 2px;
+border-style: solid;
+border-color: #025398;
+}
+
+
+
+#broj{
+	border:1px #025398  solid; 
+	border-width: 2px;
+	border-style: solid;
+	border-color: #025398;
+	font-family:Calibri,arial,helvetica;
+    font-size:24px;
+    color:#454849;
+    
+}
+
+#podaci{
+    font-family:Calibri,arial,helvetica;
+    font-size:15px;
+    color:#454849;
+    padding:10px;
+    width:300px;
+}
+
+#naslov{
+    font-family:Calibri,arial,helvetica;
+    font-size:24px;
+    color:#025398;
+}
+
+#ime{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:16px;
+    color:#454849;
+    font-weight: bold;
+}
+
+#cena{
+    font-family:Calibri,arial,helvetica;
+    font-size:15px;
+    color:#025398;
+}
+
+#vaucer{
+    font-family:Calibri,arial,helvetica;
+    font-size:30px;
+  
+    color: white;
+  
+/*    text-transform:uppercase;*/
+}
+
+#ikonica_desno{
+	background:url(../../images/favicon.png) no-repeat right;
+	height:57px;
+}
